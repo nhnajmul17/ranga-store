@@ -19,7 +19,7 @@ body {
 } */
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  width: 400px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
@@ -45,7 +45,7 @@ body {
   height: 100%;
 }
 .single-product {
-  background-color:#F8EFBA;
+  background-color:#dff9fb;
   height: 100%;
   padding: 10px;
   transition: 0.6s;
