@@ -20,12 +20,12 @@
   <script src="https://kit.fontawesome.com/04e80d47a3.js" crossorigin="anonymous"></script>
 </head>
 
-<body>~
+<body>
   <header>
-    <h1 class="text-center header">NITTO MART</h1>
+    <h1 class="text-center header"> <span class="nitto">NITTO</span> <span class="mart"> MART</span></h1>
   </header>
   <main class="main">
-    <div class="search-field">
+    <!-- <div class="search-field">
       <div class="text-center">
         <input id="input-field" class="search-field search-box" placeholder="Search Products By Name" type="text" />
         <button type="button" class="btn btn-warning  search-button" data-toggle="button" aria-pressed="false"
@@ -33,7 +33,15 @@
           Search
         </button>
       </div>
+    </div> -->
+    <div class="container my-4 search-field ">
+      <div class=" d-flex justify-content-center">
+        <input type="text" id="input-field" class="form-control me-2 w-50" placeholder="Search Products By Name" />
+        <button onclick="loadProducts()" class="btn btn-warning" id="search-btn">Search</button>
+      </div>
     </div>
+
+
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="m-2">
