@@ -25,15 +25,7 @@
     <h1 class="text-center header"> <span class="nitto">NITTO</span> <span class="mart"> MART</span></h1>
   </header>
   <main class="main">
-    <!-- <div class="search-field">
-      <div class="text-center">
-        <input id="input-field" class="search-field search-box" placeholder="Search Products By Name" type="text" />
-        <button type="button" class="btn btn-warning  search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
-    </div> -->
+    <!-- Search input and button -->
     <div class="container my-4 search-field ">
       <div class=" d-flex justify-content-center">
         <input type="text" id="input-field" class="form-control me-2 w-50" placeholder="Search Products By Name" />
@@ -41,12 +33,14 @@
       </div>
     </div>
 
-
+    <!--All products -->
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="m-2">
         </div>
       </div>
+
+      <!-- Cart calculation -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
